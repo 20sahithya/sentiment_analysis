@@ -13,17 +13,11 @@ print(df2.shape)
 print(df3.shape)
 
 df1[1].isna().sum()
-
 df2[1].isna().sum()
-
 df3[1].isna().sum()
-
 df2.dropna(axis=0, inplace=True)
-
 df2[1].isna().sum()
-
 df1.head()
-
 df2.head()
 
 dict(df2.dtypes)[1]
